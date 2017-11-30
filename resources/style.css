@@ -1,0 +1,129 @@
+ul { /*top navigation*/
+    list-style-type:none;
+    margin:0;
+    padding:10px;
+    overflow:hidden;
+    background-color:#333333;
+    font-family:'Fira Sans', sans-serif;
+    font-size:25px;
+}
+
+li { /*top navigation*/
+    float:left;
+}
+
+li a { /*top navigation links*/
+    display:block;
+    color:white;
+    text-align:center;
+    padding:30px;
+    text-decoration:none;
+}
+
+li a:hover { /*top navigation hover*/
+    background-color:#111111;
+}
+
+h1 { /*top header*/
+    font-family:'Fira Sans', sans-serif;
+    font-size:45px;
+}
+
+h2 { /*secondary header*/
+    font-family:'Fira Sans', sans-serif;
+    font-size:30px;
+}
+
+p {/*paragraph text*/
+    font-family:'Fira Sans', sans-serif;
+    font-size:22px;
+    text-align:center;
+    vertical-align: middle;
+}
+
+img { /*iPhone images*/
+    width:25%;
+    height:25%;
+}
+
+#how-to {/*styles the first section, how to send a message*/
+    vertical-align: middle;
+    padding:0 8%;
+    text-align:center;
+    display: table-cell;
+    background: none;
+    background-color: white;
+}
+
+#iPhone2, #iPhone3, #iPhone4, #iPhone5 { /*each succesive iPhone img/description*/
+    display:none;
+}
+
+#lingo {
+    font-family:'Fira Sans', sans-serif;
+    font-size:15px;
+    text-align:center;
+    vertical-align: middle;
+    padding:0 8%;
+    margin:0;
+}
+
+.circle { /*circles*/
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    height: 0;
+    padding: 17% 0;
+    background: #825B6B;
+    border-radius: 50%;
+    color: white;
+    font-family:'Fira Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.row { /*circle rows*/
+    clear:left;
+}
+
+#emoji {
+    text-align:center;
+    vertical-align: middle;
+    padding:0 8%;
+    margin:0;
+}
+
+#happy-emoji, #love-emoji, #sad-emoji, #angry-emoji, #scared-emoji, #surprised-emoji, #awkward-emoji, #funny-emoji, #over-it-emoji, #suggestive-emoji {
+    display:none;
+} /*hides emoji images before user clicks button*/
+
+#happy.clicked,#love.clicked, #sad.clicked, #angry.clicked, #scared.clicked, #surprised.click, #awkward.clicked, #funny.clicked, #over-it.clicked, #suggestive.clicked {
+    display:block;
+}
+
+button { /*buttons*/
+    background-color: #111111;
+    border-radius:12px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:'Fira Sans', sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover { /*buttons teal hover*/
+    background-color: #5E9CA6;
+    color: white;
+}
+
+.emoji-display img { /*emoji display images*/
+    padding:50px;
+    width:200px;
+    height:200px;
+}

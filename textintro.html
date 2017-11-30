@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- styles -->
+    <link rel = "stylesheet" type = "text/css" href = "./resources/style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <!-- make sure website is responsive for appropriate devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- skrollr -->
+    <script src="./resources/skrollr.js"></script>
+        <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- js file -->
+    <script src="./resources/script.js"></script>
+    </head>
+
+    <body>
+        <ul><!--Navigation menu at top-->
+            <li><a href = "#how-to">HOW TO SEND A TEXT MESSAGE</a></li>
+            <li><a href = "#lingo">TEXT MESSAGING LINGO</a></li>
+            <li><a href = "#emoji">WHAT'S AN EMOJI?</a></li>
+        </ul>
+
+        <div id = "how-to"> <!-- How to send a text message section -->
+            <h1>How to Send a Text Message</h1>
+            <h2>Are you new to iPhones? Do you find texting to be confusing? Learn more by clicking on the image of the iPhone.</h2>
+
+            <div id = "iPhone1"><!--1st iPhone img and text-->
+                <p>Fear not! This tool is meant to teach you about text messages and understand some of the confusing lingo your grandchildren use. To get started, tap on the green message icon on your iPhone.</p>
+                <img src = "./images/iphone-1.png">
+            </div>
+
+            <div id = "iPhone2"><!--2nd iPhone img and text-->
+                <p>Your recent message conversations are listed here.</p>
+                <p>To compose a new message, click on the blue writing icon in the top right corner. Compose a new message to someone you’ve already had a conversation with by simply clicking on their name in your conversations.</p>
+                <p>For example, if you wanted to talk to Paul Zemanek, you would tap anywhere within the outline for that conversation. </p>
+                <img src = "./images/iphone-2.png">
+            </div>
+
+            <div id = "iPhone3"><!--3rd iPhone img and text-->
+                <p>To address your message to someone, type the person’s name that you want to send your message to (if they are in your phone contacts or type in a phone number.</p>
+                <p>You can also click on the blue “+” button in the upper right corner, which takes you to your phone contacts. From there, you can tap on a person’s name to address the message to them.</p>
+                <img src = "./images/iphone-3.png">
+            </div>
+
+            <div id = "iPhone4"><!--4th iPhone img and text-->
+                <p>Use the keyboard to type a message. Then, click the blue “up” button to send the message. If you want to cancel the message, click on “Cancel” in the upper right corner.</p>
+                <img src = "./images/iphone-4.png">
+            </div>
+
+            <div id = "iPhone5"><!--5th iPhone img and text-->
+                <p>Great work - you did it! You sent a text message! Want to up your texting game? Scroll down to learn some text-messaging lingo or about emojis.</p>
+                <p>Want a refresher? Click on the iPhone image to start from the beginning.</p>
+                <img src = "./images/iphone-5.png">
+            </div>
+
+            <br>
+        </div>
+
+        <hr>
+
+        <div id = "lingo"> <!-- Texting lingo section -->
+            <h1>Text Messaging Lingo</h1>
+            <h2>Tired of not knowing what your grandchildren are saying? Click on the circles to learn some of the most popular text-messaging slang.</h2>
+
+            <div id="grid"> <!--3 x 3 circle grid-->
+            <div class="row">
+                <div class="circle" id = "lol">LOL</div>
+                <div class="circle" id = "idk">IDK</div>
+                <div class="circle" id = "ily">ILY</div>
+            </div>
+            <div class="row">
+                <div class="circle" id = "fyi">FYI</div>
+                <div class="circle" id = "omg">OMG</div>
+                <div class="circle" id = "btw">BTW</div>
+            </div>
+            <div class="row">
+                <div class="circle" id = "np">NP</div>
+                <div class="circle" id = "idc">IDC</div>
+                <div class="circle" id = "smh">SMH</div>
+            </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+
+        <div id = "emoji"> <!-- Emoji section -->
+            <h1>What's an Emoji?</h1>
+            <h2>Not sure what the point of those smiley faces or peach symbols mean? Look no further!</h2>
+            <p>Click on an emotion to see the appropriate emojis corresponding to it.</p>
+
+            <!--Emoji buttons-->
+            <button id = "happy">Happy</button>
+            <button id = "love">Love</button>
+            <button id = "sad">Sad</button>
+            <button id = "angry">Angry</button>
+            <button id = "scared">Scared</button>
+            <button id = "surprised">Surprised</button>
+            <button id = "awkward">Awkward</button>
+            <button id = "funny">Funny</button>
+            <button id = "over-it">Over it</button>
+            <button id = "suggestive">Suggestive</button>
+
+            <div class = "emoji-display"> <!--emoji images-->
+                <div id = "happy-emoji"> <!--happy emojis-->
+                    <img src = "./images/blushing-content-emoji.png">
+                    <img src = "./images/happy-hands-emoji.png">
+                    <img src = "./images/smiling-emoji.png">
+                </div>
+
+                <div id = "love-emoji"> <!--love emojis-->
+                    <img src = "./images/kiss-heart-emoji.png">
+                    <img src = "./images/kiss-blushing-emoji.png">
+                    <img src = "./images/heart-eyes.png">
+                </div>
+
+                <div id = "sad-emoji"> <!--sad emojis-->
+                    <img src = "./images/sad-emoji.png">
+                    <img src = "./images/single-tear-emoji.png">
+                    <img src = "./images/crying-emoji.png">
+                </div>
+
+                <div id = "angry-emoji"> <!--angry emojis-->
+                    <img src = "./images/mildly-angry-emoji.png">
+                    <img src = "./images/angry-emoji.png">
+                 </div>
+
+                <div id = "scared-emoji"> <!-- scared emojis-->
+                    <img src = "./images/confounded-emoji.png">
+                    <img src = "./images/cold-sweat-emoji.png">
+                </div>
+
+                <div id = "surprised-emoji"> <!--surprised emojis-->
+                    <img src = "./images/mildly-surprised-emoji.png">
+                    <img src = "./images/surprised-face-emoji.png">
+                    <img src = "./images/omg-emoji.png">
+                </div>
+
+                <div id = "awkward-emoji"> <!--awkward emojis-->
+                    <img src = "./images/awkward-emoji.png">
+                    <img src = "./images/grinmacing-emoji.png">
+                    <img src = "./images/monkey-emoji.png">
+                </div>
+
+                <div id = "funny-emoji"> <!--funny emojis-->
+                    <img src = "./images/laughing-crying-emoji.png">
+                    <img src = "./images/tears-of-joy.png">
+                    <img src = "./images/smiling-sweat-emoji.png">
+                </div>
+
+                <div id = "over-it-emoji"> <!--over it emojis-->
+                    <img src = "./images/eye-roll-emoji.png">
+                    <img src = "./images/neutral-emoji.png">
+                </div>
+
+                <div id = "suggestive-emoji"> <!--suggestive emojis-->
+                    <img src = "./images/smirk-face-emoji.png">
+                    <img src = "./images/tongue-out-emoji.png">
+                    <img src = "./images/eggplant-emoji.png">
+                    <img src = "./images/peach-emoji.png">
+                    <img src = "./images/smiling-devil-emoji.png">
+                </div>
+
+        </div>
+    </body>
+</html>
