@@ -70,7 +70,7 @@ img { /*iPhone images*/
 
 .circle { /*circles*/
     position: relative;
-    display: inline-block;
+    display: inline-grid;
     width: 33%;
     height: 0;
     padding: 17% 0;
