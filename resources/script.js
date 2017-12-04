@@ -137,13 +137,13 @@ $(document).ready(function(){
     $('#love').click(function(){ /*allow user to toggle between showing/hiding love emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#love-emoji').css('display','none'); //show love emojis
+        $('#love-emoji').css('display','none'); //hide love emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#love-emoji').css('display','block'); //hide love emojis
+        $('#love-emoji').css('display','block'); //show love emojis
         $(this).addClass('clicked')
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
     }
@@ -152,13 +152,13 @@ $(document).ready(function(){
     $('#sad').click(function(){ /*allow user to toggle between showing/hiding sad emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#sad-emoji').css('display','none'); //show sad emojis
+        $('#sad-emoji').css('display','none'); //hide sad emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#sad-emoji').css('display','block'); //hide sad emojis
+        $('#sad-emoji').css('display','block'); //show sad emojis
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
         $(this).addClass('clicked')
     }
@@ -167,13 +167,13 @@ $(document).ready(function(){
     $('#angry').click(function(){ /*allow user to toggle between showing/hiding angry emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#angry-emoji').css('display','none'); //show angry emojis
+        $('#angry-emoji').css('display','none'); //hide angry emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#angry-emoji').css('display','block'); //hide angry emojis
+        $('#angry-emoji').css('display','block'); //show angry emojis
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
         $(this).addClass('clicked')
     }
@@ -182,13 +182,13 @@ $(document).ready(function(){
     $('#scared').click(function(){ /*allow user to toggle between showing/hiding scared emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#scared-emoji').css('display','none'); //show scared emojis
+        $('#scared-emoji').css('display','none'); //hide scared emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#scared-emoji').css('display','block'); //hide scared emojis
+        $('#scared-emoji').css('display','block'); //show scared emojis
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
         $(this).addClass('clicked')
     }
@@ -197,13 +197,13 @@ $(document).ready(function(){
     $('#surprised').click(function(){ /*allow user to toggle between showing/hiding surprised emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#surprised-emoji').css('display','none'); //show surprised emojis
+        $('#surprised-emoji').css('display','none'); //hide surprised emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#surprised-emoji').css('display','block'); //hide surprised emojis
+        $('#surprised-emoji').css('display','block'); //show surprised emojis
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
         $(this).addClass('clicked')
     }
@@ -212,13 +212,13 @@ $(document).ready(function(){
     $('#awkward').click(function(){ /*allow user to toggle between showing/hiding awkward emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#awkward-emoji').css('display','none'); //show awkward emojis
+        $('#awkward-emoji').css('display','none'); //hide awkward emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#awkward-emoji').css('display','block'); //hide awkward emojis
+        $('#awkward-emoji').css('display','block'); //show awkward emojis
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
         $(this).addClass('clicked')
     }
@@ -227,13 +227,13 @@ $(document).ready(function(){
     $('#funny').click(function(){ /*allow user to toggle between showing/hiding funny emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#funny-emoji').css('display','none'); //show funny emojis
+        $('#funny-emoji').css('display','none'); //hide funny emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#funny-emoji').css('display','block'); //hide funny emojis
+        $('#funny-emoji').css('display','block'); //show funny emojis
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
         $(this).addClass('clicked')
     }
@@ -242,13 +242,13 @@ $(document).ready(function(){
     $('#over-it').click(function(){ /*allow user to toggle between showing/hiding over it emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#over-it-emoji').css('display','none'); //show over it emojis
+        $('#over-it-emoji').css('display','none'); //hide over it emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#over-it-emoji').css('display','block'); //hide over it emojis
+        $('#over-it-emoji').css('display','block'); //show over it emojis
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
         $(this).addClass('clicked')
     }
@@ -257,13 +257,13 @@ $(document).ready(function(){
     $('#suggestive').click(function(){ /*allow user to toggle between showing/hiding suggestive emojis*/
     if($(this).hasClass('clicked'))
     {
-        $('#suggestive-emoji').css('display','none'); //show suggestive emojis
+        $('#suggestive-emoji').css('display','none'); //hide suggestive emojis
         $("#kick").trigger('play');/*play kick sound when user clicks on a circle again*/
         $(this).removeClass('clicked')
     }
     else
     {
-        $('#suggestive-emoji').css('display','block'); //hide suggestive emojis
+        $('#suggestive-emoji').css('display','block'); //show suggestive emojis
         $("#tap").trigger('play');/*play tap sound when user first clicks on button*/
         $(this).addClass('clicked')
     }
